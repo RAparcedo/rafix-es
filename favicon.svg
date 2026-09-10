@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="RAFIX">
+  <title>RAFIX</title>
+  <!--
+    The brand mark from clients/Rafix/brand/rafix-mark.svg, with ONE change:
+    the X is scaled up about the tile centre so it fills ~68% of the square
+    instead of ~43%.
+
+    That padding is right for an app icon, where the tile is 60-180px and the
+    margin is what makes it look like an icon rather than a sticker. At a
+    16px browser tab it means the X is about seven pixels across and reads as
+    a smudge. Same path, same gold, same ground — optical sizing only, no
+    redrawn artwork. apple-touch-icon.png keeps the original proportions,
+    because there the generous margin is correct.
+  -->
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#8A6A2F"/>
+      <stop offset="28%"  stop-color="#D9B863"/>
+      <stop offset="52%"  stop-color="#F6E7B8"/>
+      <stop offset="74%"  stop-color="#D2A64F"/>
+      <stop offset="100%" stop-color="#9A7736"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#14110F"/>
+  <g transform="translate(78.47 420.58) scale(0.481 -0.481)">
+    <path fill="url(#gold)" d="M7.19580078125 0.0 253.65234375 362.173828125 30.7392578125 687.0869140625H248.4326171875L374.3466796875 486.89013671875H378.80322265625L505.2607421875 687.0869140625H707.51953125L484.06298828125 362.0869140625L730.97607421875 0.0H513.19580078125L363.8251953125 237.28369140625H358.912109375L210.45458984375 0.0Z"/>
+  </g>
+</svg>
